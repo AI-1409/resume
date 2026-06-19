@@ -17,7 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsonresume-theme-even": "^0.26.1",
+    "jsonresume-theme-stackoverflow": "^3.3.0",
+    "puppeteer": "^24.43.1",
     "resumed": "^6.1.0"
   }
 }
