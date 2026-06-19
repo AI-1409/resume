@@ -87,8 +87,7 @@
     {
       "name": "IELTS General Training",
       "date": "2021-07-01",
-      "issuer": "British Council",
-      "url": "https://www.ielts.org"
+      "issuer": "British Council"
     }
   ],
   "skills": [
@@ -110,6 +109,7 @@
       "keywords": [
         "Node.js",
         "Python",
+        "FastAPI",
         "Java",
         "Spring Boot",
         "Keycloak",
@@ -153,11 +153,10 @@
     {
       "name": "Développement IA & LLM",
       "keywords": [
-        "Google ADK (Agent Development Kit)",
-        "Gemini / google-genai",
-        "Architecture d'agents & utilisation d'outils LLM",
-        "FastAPI",
-        "Ingénierie de prompts",
+        "Google ADK",
+        "google-genai",
+        "Architecture d'agents & d'outils LLM",
+        "Prompt engineering",
         "Streaming SSE"
       ]
     }
@@ -169,7 +168,7 @@
     },
     {
       "language": "Anglais",
-      "fluency": "Courant (4 ans à travailler au Canada)"
+      "fluency": "Courant"
     }
   ],
   "projects": [
