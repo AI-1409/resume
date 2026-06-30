@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Xavier Saliniere",
-    "label": "Développeur Full-Stack Senior",
+    "label": "Développeur Full Stack Senior",
     "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
     "email": "bonjour@xaviers.sh",
     "url": "https://nipsys.eth.link",
-    "summary": "Développeur Full-Stack senior comptant plus de 10 ans d'expérience dans les applications d'entreprise couvrant la sécurité, les opérations et l'analytique. Au Centre des opérations de Bell Canada, j'ai développé et maintenu plusieurs plateformes de production pour la gestion WAF, le suivi des vulnérabilités, la détection de phishing, la réponse aux incidents et l'analytique du service client — incluant un agent IA propulsé par Google Gemini permettant l'interrogation en langage naturel de millions d'enregistrements d'interactions. Je suis motivé par la création d'outils qui aident les utilisateurs à prendre de meilleures décisions, plus rapidement.",
+    "summary": "Développeur Full Stack avec plus de 10 ans d'expérience dans le développement d'applications enterprise pour la sécurité et l'analytique. Au Operations Center de Bell Canada, j'ai développé des plateformes de gestion WAF, suivi des vulnérabilités, détection de phishing et analytique du service client — dont un agent conversationnel IA avec visualisation de graphiques permettant l'interrogation en langage naturel de millions d'enregistrements. Actuellement en formation en cybersécurité et tests d'intrusion dans le cadre d'une reconversion vers la sécurité offensive.",
     "location": {
       "city": "Genève",
       "countryCode": "CH",
@@ -28,42 +28,43 @@
   "work": [
     {
       "name": "Bell Canada",
-      "position": "Développeur Full-Stack Senior",
+      "position": "Développeur Full Stack Senior",
       "startDate": "2022-01",
-      "summary": "Via l'entreprise sous-traitante Talan, développement full-stack pour le Centre d'Opérations de Bell Canada, créant des plateformes d'entreprise de sécurité et d'analytique.",
+      "summary": "Développement full stack pour le Operations Center de Bell Canada via l'ESN Talan, création de plateformes internes d'analytique et de cyber-sécurité.",
       "highlights": [
-        "Développement from scratch de l'agent INSIGHTS — agent conversationnel IA (Google ADK + Gemini) permettant l'interrogation en langage naturel de la base d'interactions du service client de Bell; développeur unique sur l'architecture, la conception d'outils, l'intégration API et le déploiement",
-        "Livraison end-to-end de la plateforme INSIGHTS (Vue 3 + Spring Boot + Elasticsearch) — rapports YoY, visualisation treemap, couche de cache MongoDB, suite de tests E2E Playwright, et intégration du chatbot IA; plateforme utilisée par 1 100+ utilisateurs",
-        "Conception du modèle de permissions RBAC spécifique au BFF (Spring Boot + Keycloak) pour INSIGHTS, définissant tous les mappings rôle/scope/groupe AD; propriétaire unique de la couche de permissions du service",
-        "Développement de l'UI WAF Management (Vue 3 + Vitest) — implémentation du monitoring browser New Relic avec configuration dynamique par environnement, module de gestion des tâches, et gestion des clusters de devices",
-        "Développement de la plateforme de gestion des vulnérabilités (Vue 2 + TypeScript) — refonte du workflow d'approval bundles, gestion des exceptions avec support de pièces jointes, et corrections du pipeline d'export; contributeur principal avec 500+ commits",
-        "Développement de la plateforme anti-phishing Phisherman (Vue 3 + Elastic APM + Sentry) — intégration des flux de threat intelligence Wildfire, Symantec Threat Explorer et URLScan.io dans l'UI analyste",
-        "Contribution aux plateformes de sécurité EDR et SLURP (Vue 2) — refonte de la gestion utilisateurs, filtres OS/type machine, intégration de données SentinelOne, et suivi d'actifs par code-barres"
+        "Développement de INSIGHTS Agent from scratch — agent conversationnel IA (Google ADK + Gemini) avec rendu enrichi incluant des graphiques et visualisations de données en ligne, permettant l'interrogation en langage naturel de la base d'interactions du service client de Bell ; seul développeur sur l'architecture, la conception des outils, l'intégration API et le déploiement",
+        "Livraison de INSIGHTS Platform de A à Z (Vue 3 + TypeScript + Pinia) — mise en production de Trending Themes avec analyse comparative annuelle, visualisation treemap interactive, optimisation du cache MongoDB, suite de tests E2E Playwright et intégration chatbot IA ; plateforme utilisée par plus de 1 100 utilisateurs",
+        "Conception d'un modèle de permissions RBAC spécifique au BFF (Spring Boot + Keycloak) pour INSIGHTS, définissant tous les mappings rôles/scopes/groupes AD ; seul responsable de la couche de permissions du service",
+        "Développement de l'interface de gestion WAF (Vue 3 + Vite + Element Plus + Tailwind CSS) — architecture en pattern Composable-First pour une gestion d'état localisée, assistant de signatures ASM multi-étapes et monitoring temps réel des devices",
+        "Développement de la plateforme de gestion des vulnérabilités (Vue 2 + TypeScript) — fonctionnalité Containment pour le suivi des remédiations, workflow Priority 1 pour le traitement des vulnérabilités critiques, onboarding Welcome Tour et refonte du workflow d'approbation des bundles avec support de pièces jointes",
+        "Développement de la plateforme anti-phishing Phisherman (Vue 3 + Module Federation) — tableau de bord SOC avec statistiques de soumission, visualisations des domaines de phishing les plus fréquents et interfaces pour les flux de renseignement sur les menaces URLScan.io, Symantec Threat Explorer et Wildfire",
+        "Développement de la plateforme de cas d'usage cybersécurité UCDB-UI (Vue 3 + Pinia + Vue I18n) — système de filtres complet avec synchronisation URL, tableau de bord KPI avec colonnes personnalisables et implémentation du Dark Mode",
+        "Contribution aux plateformes de sécurité EDR et SLURP (Vue 2) — architecture du Core Filter System avec filtres sauvegardés, interfaces pour les pistes d'audit de sécurité SentinelOne et suivi d'assets par code-barres"
       ],
       "url": "https://www.bell.ca"
     },
     {
       "name": "Renault Digital",
-      "position": "Développeur Lead Front-End",
+      "position": "Lead Developer Front-End",
       "startDate": "2019-09",
       "endDate": "2022-01",
-      "summary": "Via l'entreprise sous-traitante onepoint, j'ai dirigé le développement front-end de PRISM, une application web modulaire destinée à la définition et à la validation de composants automobiles.",
+      "summary": "Responsable du développement front-end pour PRISM via l'ESN onepoint — application web modulaire pour la définition et validation de composants automobiles.",
       "highlights": [
-        "Mise en place d'une architecture modulaire permettant aux différentes parties prenantes (concepteurs, ingénieurs, équipes chargées des achats, spécialistes de la conformité) de consulter et de valider les composants en fonction de leurs besoins spécifiques",
-        "Définition de normes de codage, de choix architecturaux et de pratiques de développement au sein des équipes",
-        "Réduction du temps nécessaire à la validation des composants et résolution des conflits dès les premières étapes de la phase de conception"
+        "Architecture modulaire permettant aux différents intervenants (designers, ingénieurs, équipes achats, spécialistes conformité) de visualiser et valider les composants selon leurs besoins spécifiques",
+        "Mise en place des standards de code, décisions architecturales et pratiques de développement de l'équipe",
+        "Réduction du temps de validation des composants et résolution des conflits plus en amont dans la phase de conception"
       ]
     },
     {
       "name": "Yanport",
-      "position": "Développeur Full-Stack",
+      "position": "Développeur Full Stack",
       "startDate": "2016-01",
       "endDate": "2019-09",
-      "summary": "Développement d'une application et services web regroupant différents outils à destination des professionels de l'immobilier.",
+      "summary": "Développement full stack d'applications web et services fournissant des outils pour les professionnels de l'immobilier.",
       "highlights": [
-        "Plateforme permettant de regrouper des annonces immobilières provenant de plusieurs sources, dotée de fonctions avancées de recherche, de filtrage et de génération de rapports et de propositions",
-        "Migration d'AngularJS vers Angular 5 achevée, avec mise en œuvre des fonctionnalités d'application web progressive (PWA) et d'un design adaptatif pour les mobiles et les tablettes",
-        "Développement de systèmes backend avec mise à jour des données en temps réel, optimisation de la recherche et infrastructure de crawling"
+        "Plateforme agrégeant les annonces immobilières de multiples sources avec recherche avancée, filtrage, génération de rapports et création de propositions",
+        "Migration AngularJS vers Angular 5 avec implémentation des capacités Progressive Web App et design responsive pour mobile et tablette",
+        "Développement des systèmes backend avec mises à jour temps réel, optimisation de la recherche et infrastructure de crawling"
       ]
     }
   ],
@@ -87,7 +88,8 @@
     {
       "name": "IELTS General Training",
       "date": "2021-07-01",
-      "issuer": "British Council"
+      "issuer": "British Council",
+      "url": "https://www.ielts.org"
     }
   ],
   "skills": [
@@ -95,12 +97,16 @@
       "name": "Développement Frontend",
       "keywords": [
         "Vue.js",
+        "Vue 3",
         "React",
         "Angular",
         "TypeScript",
         "JavaScript",
         "Next.js",
         "TailwindCSS",
+        "Element Plus",
+        "Pinia",
+        "Chart.js",
         "Nanostores"
       ]
     },
@@ -108,6 +114,7 @@
       "name": "Développement Backend",
       "keywords": [
         "Node.js",
+        "Bun",
         "Python",
         "FastAPI",
         "Java",
@@ -136,29 +143,40 @@
         "CI/CD",
         "Linux",
         "IPFS",
-        "Decentralized Systems"
+        "Systèmes décentralisés"
       ]
     },
     {
-      "name": "Assurance & Qualité",
+      "name": "Tests & Qualité",
       "keywords": [
         "Vitest",
         "Jest",
         "Cypress",
         "Playwright",
-        "Unit Testing",
-        "End-to-End Testing"
+        "Tests unitaires",
+        "Tests de bout en bout"
       ]
     },
     {
       "name": "Développement IA & LLM",
       "keywords": [
-        "Google ADK",
-        "google-genai",
-        "Architecture d'agents & d'outils LLM",
-        "Prompt engineering",
-        "Streaming SSE"
+        "Google ADK (Agent Development Kit)",
+        "Gemini / google-genai",
+        "Architecture d'agents et Tool Use LLM",
+        "FastAPI",
+        "Prompt Engineering",
+        "SSE Streaming"
       ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cybersécurité & Tests d'intrusion",
+      "keywords": ["Pentesting", "Sécurité offensive", "Reconversion professionnelle"]
+    },
+    {
+      "name": "Systèmes décentralisés et distribués",
+      "keywords": ["Auto-hébergement", "IPFS", "Résistance à la censure", "Souveraineté numérique"]
     }
   ],
   "languages": [
@@ -174,22 +192,22 @@
   "projects": [
     {
       "name": "Ash",
-      "description": "Application de coordination terrain P2P soutenant les mouvements militants et de protestation via une communication résistante à la censure.",
+      "description": "Application de coordination terrain P2P supportant les mouvements activistes et de protestation via une communication résistante à la censure.",
       "highlights": [
-        "Lauréat, RealFi Hack 2025 — piste Resilient Activist Technology (240 participants)",
-        "Coordination P2P via le réseau de messagerie Waku avec intégration Tor hidden service",
-        "Téléchargement de cartes hors ligne et coordination de groupe sans infrastructure centralisée"
+        "Vainqueur, RealFi Hack 2025 — catégorie Resilient Activist Technology (240 participants)",
+        "Coordination pair-à-pair via le réseau de messagerie Waku avec intégration d'un service caché Tor",
+        "Téléchargement de cartes hors-ligne et coordination de groupe sans infrastructure centralisée"
       ],
       "keywords": ["TypeScript", "Rust", "Tauri", "Waku", "Tor", "P2P"],
       "url": "https://github.com/nipsysdev/Ash"
     },
     {
       "name": "lsd",
-      "description": "Implémentation du Logos Design System basée sur shadcn — une bibliothèque de composants minimaliste et accessible.",
+      "description": "Implémentation basée sur shadcn du Logos Design System — une bibliothèque de composants minimaliste centrée sur l'accessibilité.",
       "highlights": [
-        "39 composants avec 185+ exemples live à travers 15 releases",
-        "Construit sur React 19 et primitives Radix UI avec Tailwind CSS 4",
-        "Publié comme @nipsys/lsd sur npm avec documentation automatisée"
+        "39 composants avec plus de 185 exemples interactifs sur 15 releases",
+        "Construit sur React 19 et les primitives Radix UI avec Tailwind CSS 4",
+        "Publié sous @nipsys/lsd sur npm avec documentation automatisée"
       ],
       "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System"],
       "url": "https://github.com/nipsysdev/lsd"
@@ -198,7 +216,7 @@
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
     "version": "v1.3.0",
-    "lastModified": "2026-06-08",
+    "lastModified": "2026-06-30",
     "theme": "jsonresume-theme-stackoverflow"
   }
 }
