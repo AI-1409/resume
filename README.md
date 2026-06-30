@@ -8,7 +8,6 @@
 
 - `resume.json` — English JSON Resume (ATS-friendly)
 - `resume.fr.json` — French JSON Resume (ATS-friendly)
-- `README.md` — This file
 
 ## Usage
 
