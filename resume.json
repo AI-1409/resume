@@ -6,7 +6,7 @@
     "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
     "email": "bonjour@xaviers.sh",
     "url": "https://nipsys.eth.link",
-    "summary": "Senior Full-Stack Developer with 10+ years of experience in enterprise applications covering security, operations, and analytics domains. At Bell Canada's Operations Center, I built and maintained multiple production platforms for WAF management, vulnerability tracking, phishing detection, incident response, and customer service analytics — including an AI agent powered by Google Gemini enabling natural language querying over millions of interaction records. I am motivated by creating tools that help people make better decisions, faster.",
+    "summary": "Senior Full-Stack Developer with 10+ years of experience building enterprise security and analytics applications. At Bell Canada's Operations Center, I developed platforms for WAF management, vulnerability tracking, phishing detection, and customer service analytics — including an AI conversational agent with chart visualization capabilities enabling natural language querying over millions of interaction records. Currently studying cybersecurity and penetration testing as part of a planned career transition into offensive security.",
     "location": {
       "city": "Geneve",
       "countryCode": "CH",
@@ -32,13 +32,14 @@
       "startDate": "2022-01",
       "summary": "Full-stack development for Bell Canada's Operations Center through Talan contracting, building enterprise security and analytics platforms.",
       "highlights": [
-        "Built INSIGHTS Agent from scratch — AI conversational agent (Google ADK + Gemini) enabling natural language querying over Bell's customer service interaction database; sole developer across architecture, tool design, API integration, and deployment",
-        "Delivered INSIGHTS Platform end-to-end (Vue 3 + Spring Boot + Elasticsearch) — shipped YoY comparison reports, treemap visualization, MongoDB caching layer, Playwright E2E test suite, and AI chatbot integration; platform serves 1,100+ users",
+        "Built INSIGHTS Agent from scratch — AI conversational agent (Google ADK + Gemini) with rich response rendering including inline charts and data visualizations; enables natural language querying over Bell's customer service interaction database; sole developer across architecture, tool design, API integration, and deployment",
+        "Delivered INSIGHTS Platform end-to-end (Vue 3 + TypeScript + Pinia) — shipped Trending Themes with year-over-year analysis, interactive treemap visualization, MongoDB caching optimization, Playwright E2E test suite, and AI chatbot integration; platform serves 1,100+ users",
         "Designed BFF-specific RBAC permission model (Spring Boot + Keycloak) for INSIGHTS, defining all role/scope/AD group mappings; sole owner of the permission layer across the service",
-        "Built WAF Management UI (Vue 3 + Vitest) — implemented New Relic browser monitoring with dynamic per-environment configuration, task management module, and device cluster management",
-        "Developed Vulnerability Management platform (Vue 2 + TypeScript) — redesigned approval bundle workflow, built exception handling with file attachment support, and shipped export pipeline fixes; primary contributor with 500+ commits",
-        "Built Phisherman anti-phishing platform (Vue 3 + Elastic APM + Sentry) — integrated Wildfire, Symantec Threat Explorer, and URLScan.io threat intelligence feeds into the analyst UI",
-        "Contributed to EDR and SLURP security platforms (Vue 2) — user management redesign, OS/machine type filters, SentinelOne data integration, and barcode asset tracking"
+        "Built WAF Management UI (Vue 3 + Vite + Element Plus + Tailwind CSS) — architected Composable-First pattern for localized state management, built multi-step ASM Signature wizard, and real-time device monitoring",
+        "Developed Vulnerability Management platform (Vue 2 + TypeScript) — built Containment Feature for mitigation tracking, Priority 1 workflow for critical vulnerability handling, Welcome Tour onboarding, and redesigned approval bundle workflow with file attachment support",
+        "Built Phisherman anti-phishing platform (Vue 3 + Module Federation) — developed SOC analyst dashboard with submission statistics, top phishing domain visualizations, and UI for URLScan.io, Symantec Threat Explorer, and Wildfire threat intelligence feeds",
+        "Developed UCDB-UI cybersecurity use case platform (Vue 3 + Pinia + Vue I18n) — built comprehensive filter system with URL query sync, KPI-driven dashboard with customizable columns, and Dark Mode implementation",
+        "Contributed to EDR and SLURP security platforms (Vue 2) — designed Core Filter System Architecture with saved filter sets, UI for SentinelOne security audit trails, and barcode asset tracking"
       ],
       "url": "https://www.bell.ca"
     },
@@ -96,12 +97,16 @@
       "name": "Frontend Development",
       "keywords": [
         "Vue.js",
+        "Vue 3",
         "React",
         "Angular",
         "TypeScript",
         "JavaScript",
         "Next.js",
         "TailwindCSS",
+        "Element Plus",
+        "Pinia",
+        "Chart.js",
         "Nanostores"
       ]
     },
@@ -109,7 +114,9 @@
       "name": "Backend Development",
       "keywords": [
         "Node.js",
+        "Bun",
         "Python",
+        "FastAPI",
         "Java",
         "Spring Boot",
         "Keycloak",
@@ -162,6 +169,16 @@
       ]
     }
   ],
+  "interests": [
+    {
+      "name": "Cybersecurity & Penetration Testing",
+      "keywords": ["Pentesting", "Offensive Security", "Career Transition"]
+    },
+    {
+      "name": "Decentralized & Distributed Systems",
+      "keywords": ["Self-Hosting", "IPFS", "Censorship-Resistance", "Digital Sovereignty"]
+    }
+  ],
   "languages": [
     {
       "language": "French",
@@ -199,7 +216,7 @@
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
     "version": "v1.3.0",
-    "lastModified": "2026-06-08",
+    "lastModified": "2026-06-30",
     "theme": "jsonresume-theme-stackoverflow"
   }
 }
