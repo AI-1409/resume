@@ -2,16 +2,17 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Xavier Saliniere",
-    "label": "Senior Full-Stack Web Developer",
+    "label": "Senior Full-Stack Developer",
     "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
     "email": "bonjour@xaviers.sh",
-    "url": "https://nipsys.eth.link",
-    "summary": "Senior Full-Stack Developer with 10+ years of experience building enterprise security and analytics applications. At Bell Canada's Operations Center, I developed platforms for WAF management, vulnerability tracking, phishing detection, and customer service analytics — including an AI conversational agent with chart visualization capabilities enabling natural language querying over millions of interaction records. Currently studying cybersecurity and penetration testing as part of a planned career transition into offensive security.",
+    "url": "https://xav.gwei.site",
+    "summary": "Senior Full-Stack Developer with a frontend focus and over 10 years of experience building enterprise applications, particularly in the fields of security, operations, and data analysis. I also had the opportunity to design a conversational AI agent as part of an application enabling the querying and interpretation of data extracted from Bell Canada's customer service interaction database. I have 6 years of experience with Angular, 4 years with Vue.js, 6 years with Java (including 3 with Spring Boot), and 3 years with Python Django.",
     "location": {
-      "city": "Geneve",
+      "city": "Geneva",
       "countryCode": "CH",
       "address": "Switzerland"
     },
+    "nationality": "French Citizen",
     "profiles": [
       {
         "network": "GitHub",
@@ -27,32 +28,31 @@
   },
   "work": [
     {
-      "name": "Bell Canada",
+      "name": "Bell Canada (via Talan)",
       "position": "Senior Full-Stack Developer",
       "startDate": "2022-01",
-      "summary": "Full-stack development for Bell Canada's Operations Center through Talan contracting, building enterprise security and analytics platforms.",
+      "summary": "At Bell Canada's Operations Center, I created and contributed to the development of various enterprise platforms in the fields of security and data analysis and visualization.\n\nTechnologies: Vue.js (versions 2 and 3), React, TypeScript, Pinia, TailwindCSS, Vite, PostgreSQL, MongoDB, Elasticsearch, Redis, Java Spring Boot, Python Django, Docker, GitLab CI/CD, Keycloak, Vitest, Jest, Cypress, Playwright, Google ADK (AI agent).",
       "highlights": [
-        "Built INSIGHTS Agent from scratch — AI conversational agent (Google ADK + Gemini) with rich response rendering including inline charts and data visualizations; enables natural language querying over Bell's customer service interaction database; sole developer across architecture, tool design, API integration, and deployment",
-        "Delivered INSIGHTS Platform end-to-end (Vue 3 + TypeScript + Pinia) — shipped Trending Themes with year-over-year analysis, interactive treemap visualization, MongoDB caching optimization, Playwright E2E test suite, and AI chatbot integration; platform serves 1,100+ users",
-        "Designed BFF-specific RBAC permission model (Spring Boot + Keycloak) for INSIGHTS, defining all role/scope/AD group mappings; sole owner of the permission layer across the service",
-        "Built WAF Management UI (Vue 3 + Vite + Element Plus + Tailwind CSS) — architected Composable-First pattern for localized state management, built multi-step ASM Signature wizard, and real-time device monitoring",
-        "Developed Vulnerability Management platform (Vue 2 + TypeScript) — built Containment Feature for mitigation tracking, Priority 1 workflow for critical vulnerability handling, Welcome Tour onboarding, and redesigned approval bundle workflow with file attachment support",
-        "Built Phisherman anti-phishing platform (Vue 3 + Module Federation) — developed SOC analyst dashboard with submission statistics, top phishing domain visualizations, and UI for URLScan.io, Symantec Threat Explorer, and Wildfire threat intelligence feeds",
-        "Developed UCDB-UI cybersecurity use case platform (Vue 3 + Pinia + Vue I18n) — built comprehensive filter system with URL query sync, KPI-driven dashboard with customizable columns, and Dark Mode implementation",
-        "Contributed to EDR and SLURP security platforms (Vue 2) — designed Core Filter System Architecture with saved filter sets, UI for SentinelOne security audit trails, and barcode asset tracking"
+        "Development of the Insights platform (Vue3/Spring Boot) — AI-powered customer service analytics platform used by over 1,100 users. Built a conversational agent from scratch, enabling natural language querying of the customer service interaction database as well as chart generation. Also developed a caching system using MongoDB (recommending a migration to Redis).",
+        "Created the new Frontend application for the WAF management platform — Migration of the React frontend to Vue3. Features including firewall policy configuration, virtual servers, ASM signatures, telemetry, integration with F5 and backend services written in Go and Spring Boot.",
+        "Took over development of the vulnerability management platform — Platform for tracking and remediating security vulnerabilities across Bell's entire infrastructure (Vue2/Django).",
+        "Development of the EDR platform — Event detection and response platform for real-time coordination of security incidents with SentinelOne integration (Vue2/Spring Boot).",
+        "Development of the new Phisherman Frontend — Phishing detection and analysis platform, integrating URLScan.io, Symantec, and Wildfire (Vue3/Django, Elasticsearch).",
+        "Took over development of SLURP — Asset management system with barcode tracking and application health monitoring (Vue2/Django).",
+        "Created the UCDB (Unified Configuration Database) platform with API documentation and field management (Vue3/Spring Boot)."
       ],
       "url": "https://www.bell.ca"
     },
     {
-      "name": "Renault Digital",
-      "position": "Lead Front-End Web Developer",
+      "name": "Renault Digital (via Onepoint)",
+      "position": "Lead Front-End Developer",
       "startDate": "2019-09",
       "endDate": "2022-01",
-      "summary": "Led frontend development for PRISM through onepoint contracting — modular web application for automotive component definition and validation.",
+      "summary": "Led the Frontend architecture of PRISM — a modular web application for automotive component definition and validation, used by multiple stakeholder roles throughout the vehicle development lifecycle.\n\nTechnologies: Angular 8+, TypeScript, Redux, Material Design, GitLab CI/CD, Jest, Cypress.",
       "highlights": [
-        "Built modular architecture enabling different stakeholders (designers, engineers, procurement teams, compliance specialists) to view and validate components according to their specific needs",
-        "Established coding standards, architectural decisions, and team development practices",
-        "Reduced component validation time and resolved conflicts earlier in the design phase"
+        "Built modular views for a cPDM application (Angular) — enabling designers, engineers, procurement teams, and compliance specialists to define, configure, and validate automotive components including parts, materials, and color/trim variants",
+        "Established coding standards, architectural decisions, and development practices for the frontend team; integrated with Java/Spring Boot backend services and collaborated on API contract design",
+        "Reduced automotive component validation cycle time by enabling parallel stakeholder reviews within a single source of truth for product data, catching design conflicts earlier in the design phase"
       ]
     },
     {
@@ -60,26 +60,27 @@
       "position": "Full-Stack Developer",
       "startDate": "2016-01",
       "endDate": "2019-09",
-      "summary": "Full-stack development of web applications and services providing tools for real estate professionals.",
+      "summary": "Full-Stack development of property aggregation and estimation platforms for real estate professionals, providing agents and agencies with tools for market monitoring, property search, and decision support.\n\nTechnologies: Angular.js, Angular 4+, JavaScript, TypeScript, MongoDB, Elasticsearch, Java 8+, Eclipse Jersey.",
       "highlights": [
-        "Built platform aggregating property listings from multiple sources with advanced search, filtering, report generation, and proposal creation",
-        "Completed AngularJS to Angular 5 migration implementing Progressive Web App capabilities and responsive design for mobile and tablet",
-        "Developed backend systems with real-time data updates, search optimization, and crawling infrastructure"
-      ]
+        "Platform aggregating property listings from over 10 sources with advanced search, filtering, report generation, and proposal creation for real estate professionals",
+        "AngularJS to Angular 5 migration — implemented Progressive Web App capabilities, responsive design for mobile and tablet, and modernized the frontend architecture",
+        "Developed backend services for real-time data updates, search optimization, and crawling infrastructure powering the aggregation pipeline"
+      ],
+      "url": "https://www.yanport.com"
     }
   ],
   "education": [
     {
-      "institution": "Lycée Le Rebours — Paris 13°",
+      "institution": "Lycée Le Rebours — Paris 13ᵉ",
       "area": "Computer Science",
-      "studyType": "Licence STS",
+      "studyType": "Licence Professionnelle STS",
       "startDate": "2016",
       "endDate": "2017"
     },
     {
       "institution": "Lycée Léonard de Vinci de Melun",
       "area": "Computer Science",
-      "studyType": "BTS SIO SLAM",
+      "studyType": "BTS SIO option SLAM",
       "startDate": "2014",
       "endDate": "2016"
     }
@@ -97,32 +98,15 @@
       "name": "Frontend Development",
       "keywords": [
         "Vue.js",
-        "Vue 3",
         "React",
         "Angular",
         "TypeScript",
         "JavaScript",
         "Next.js",
-        "TailwindCSS",
-        "Element Plus",
         "Pinia",
-        "Chart.js",
-        "Nanostores"
-      ]
-    },
-    {
-      "name": "Backend Development",
-      "keywords": [
-        "Node.js",
-        "Bun",
-        "Python",
-        "FastAPI",
-        "Java",
-        "Spring Boot",
-        "Keycloak",
-        "Go",
-        "REST APIs",
-        "GraphQL"
+        "Redux",
+        "TailwindCSS",
+        "Vite"
       ]
     },
     {
@@ -136,18 +120,33 @@
       ]
     },
     {
-      "name": "DevOps & Infrastructure",
+      "name": "Backend Development",
       "keywords": [
-        "Docker",
-        "Kubernetes",
-        "CI/CD",
-        "Linux",
-        "IPFS",
-        "Decentralized Systems"
+        "Java",
+        "Spring Boot",
+        "Eclipse Jersey",
+        "Node.js",
+        "Python Django",
+        "Deno",
+        "Microservices",
+        "REST APIs",
+        "Rust"
       ]
     },
     {
-      "name": "Testing & Quality",
+      "name": "DevOps & Infrastructure",
+      "keywords": [
+        "Docker",
+        "GitHub/GitLab CI/CD",
+        "Keycloak",
+        "Linux",
+        "IPFS",
+        "Logos stack",
+        "Self-hosting"
+      ]
+    },
+    {
+      "name": "QA & Testing",
       "keywords": [
         "Vitest",
         "Jest",
@@ -160,23 +159,12 @@
     {
       "name": "AI & LLM Development",
       "keywords": [
-        "Google ADK (Agent Development Kit)",
-        "Gemini / google-genai",
-        "LLM Tool Use & Agent Architecture",
-        "FastAPI",
-        "Prompt Engineering",
-        "SSE Streaming"
+        "Self-hosted AI agent configuration (OpenClaw, Hermes)",
+        "LLM Prompt Engineering",
+        "AI agent skill development",
+        "Multi-agent orchestration",
+        "Google ADK"
       ]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Cybersecurity & Penetration Testing",
-      "keywords": ["Pentesting", "Offensive Security", "Career Transition"]
-    },
-    {
-      "name": "Decentralized & Distributed Systems",
-      "keywords": ["Self-Hosting", "IPFS", "Censorship-Resistance", "Digital Sovereignty"]
     }
   ],
   "languages": [
@@ -186,37 +174,39 @@
     },
     {
       "language": "English",
-      "fluency": "Master"
+      "fluency": "Bilingual"
     }
   ],
   "projects": [
     {
+      "name": "site",
+      "description": "Terminal-themed personal website (React 19, Next.js 15), deployed on IPFS, self-hosted with bilingual FR/EN support and P2P infrastructure.",
+      "keywords": ["TypeScript", "React", "Next.js", "IPFS", "GitHub CI", "Self-hosting"],
+      "url": "https://xav.gwei.site/"
+    },
+    {
+      "name": "@nipsys/lsd",
+      "description": "A Shadcn-based implementation of the Logos Design System.",
+      "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System", "GitHub CI"],
+      "url": "https://lsd.nipsys.dev/"
+    },
+    {
       "name": "Ash",
-      "description": "P2P field coordination app supporting activism and protest movements with censorship-resistant communication.",
-      "highlights": [
-        "Winner, RealFi Hack 2025 — Resilient Activist Technology track (240 participants)",
-        "Peer-to-peer coordination via Waku messaging network with Tor hidden service integration",
-        "Offline map downloads and group coordination without centralized infrastructure"
-      ],
-      "keywords": ["TypeScript", "Rust", "Tauri", "Waku", "Tor", "P2P"],
+      "description": "P2P field coordination hackathon proof-of-concept with censorship-resistant communication. Winner of the RealFi Hack 2025 hackathon (240 participants). Built with TypeScript, Rust (Tauri), Waku, and Tor. Development continued through AnyMaps, a decentralized offline navigation platform with social features.",
+      "keywords": ["TypeScript", "Rust", "Tauri", "Waku/Logos stack", "Tor", "P2P"],
       "url": "https://github.com/nipsysdev/Ash"
     },
     {
-      "name": "lsd",
-      "description": "shadcn-based implementation of the Logos Design System — a minimalist, accessibility-first component library.",
-      "highlights": [
-        "39 components with 185+ live examples across 15 releases",
-        "Built on React 19 and Radix UI primitives with Tailwind CSS 4",
-        "Published as @nipsys/lsd on npm with automated documentation"
-      ],
-      "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System"],
-      "url": "https://github.com/nipsysdev/lsd"
+      "name": "storage-rust-bindings",
+      "description": "Rust FFI bindings for Logos Storage, a decentralized storage network.",
+      "keywords": ["Rust", "FFI", "Logos Storage"],
+      "url": "https://github.com/nipsysdev/storage-rust-bindings"
     }
   ],
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
-    "version": "v1.3.0",
-    "lastModified": "2026-06-30",
+    "version": "v1.5.0",
+    "lastModified": "2026-07-10",
     "theme": "jsonresume-theme-stackoverflow"
   }
 }
