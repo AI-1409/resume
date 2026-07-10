@@ -180,19 +180,19 @@
   "projects": [
     {
       "name": "site",
-      "description": "Terminal-themed personal website (React 19, Next.js 15), deployed on IPFS, self-hosted with bilingual FR/EN support and P2P infrastructure.",
+      "description": "Terminal-themed personal website, deployed on IPFS, self-hosted with bilingual FR/EN support and P2P infrastructure.",
       "keywords": ["TypeScript", "React", "Next.js", "IPFS", "GitHub CI", "Self-hosting"],
       "url": "https://xav.gwei.site/"
     },
     {
       "name": "@nipsys/lsd",
-      "description": "A Shadcn-based implementation of the Logos Design System.",
+      "description": "A Shadcn-based implementation of the Logos Design System — 39 components available.",
       "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System", "GitHub CI"],
       "url": "https://lsd.nipsys.dev/"
     },
     {
       "name": "Ash",
-      "description": "P2P field coordination hackathon proof-of-concept with censorship-resistant communication. Winner of the RealFi Hack 2025 hackathon (240 participants). Built with TypeScript, Rust (Tauri), Waku, and Tor. Development continued through AnyMaps, a decentralized offline navigation platform with social features.",
+      "description": "P2P field coordination hackathon proof-of-concept with censorship-resistant communication. Winner of the RealFi Hack 2025 hackathon (240 participants). Development continued through AnyMaps, a decentralized offline navigation platform with social features.",
       "keywords": ["TypeScript", "Rust", "Tauri", "Waku/Logos stack", "Tor", "P2P"],
       "url": "https://github.com/nipsysdev/Ash"
     },
