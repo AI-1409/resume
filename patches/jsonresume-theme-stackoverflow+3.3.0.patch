@@ -11,3 +11,27 @@ index 2e4f936..129d166 100644
    .level.fluent.svelte-10tjtrd .bar:where(.svelte-10tjtrd)::after {background:var(--color-bar-advanced);width:7.5em;}.level.master.svelte-10tjtrd .bar:where(.svelte-10tjtrd)::after,
    .level.expert.svelte-10tjtrd .bar:where(.svelte-10tjtrd)::after,
    .level.native.speaker.svelte-10tjtrd .bar:where(.svelte-10tjtrd)::after {background:var(--color-bar-master);width:10em;}
+diff --git a/node_modules/jsonresume-theme-stackoverflow/styles/global.css b/node_modules/jsonresume-theme-stackoverflow/styles/global.css
+index 236e6fa..d9b985a 100644
+--- a/node_modules/jsonresume-theme-stackoverflow/styles/global.css
++++ b/node_modules/jsonresume-theme-stackoverflow/styles/global.css
+@@ -79,7 +79,14 @@ a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; b
+ 
+ /* Print */
+ @media print {
+-  @page { margin: 1.4cm 1.4cm; }
++  @page { margin: 1cm; }
++  :root {
++    --sp-3: 0.6rem;
++    --sp-4: 0.8rem;
++    --sp-5: 1.1rem;
++    --lh-snug: 1.3;
++    --lh-base: 1.5;
++  }
+   body { line-height: var(--lh-snug); }
+   ul { margin-top: var(--sp-2); }
+   ul, li { padding: 0; }
+diff --git a/node_modules/jsonresume-theme-stackoverflow/test/TestOutput/.npmignore b/node_modules/jsonresume-theme-stackoverflow/test/TestOutput/.gitignore
+similarity index 100%
+rename from node_modules/jsonresume-theme-stackoverflow/test/TestOutput/.npmignore
+rename to node_modules/jsonresume-theme-stackoverflow/test/TestOutput/.gitignore
