@@ -11,7 +11,8 @@
     "export": "resumed export -o out/Xavier-SALINIERE_resume.EN.pdf",
     "export_fr": "resumed export resume.fr.json -o out/Xavier-SALINIERE_resume.FR.pdf",
     "serve": "resumed render -o index.html && npx http-server -p 3000 -o",
-    "serve_fr": "resumed render resume.fr.json -o index.fr.html && npx http-server -p 3000 -o index.fr.html"
+    "serve_fr": "resumed render resume.fr.json -o index.fr.html && npx http-server -p 3000 -o index.fr.html",
+    "postinstall": "patch-package"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +21,8 @@
     "jsonresume-theme-stackoverflow": "^3.3.0",
     "puppeteer": "^24.43.1",
     "resumed": "^6.1.0"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1"
   }
 }
