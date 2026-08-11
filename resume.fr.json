@@ -3,7 +3,7 @@
   "basics": {
     "name": "Xavier Saliniere",
     "label": "Développeur Full-Stack Senior",
-    "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
+    "image": "https://raw.githubusercontent.com/AI-V01D/resume/refs/heads/main/photo.png",
     "email": "bonjour@xaviers.sh",
     "url": "https://xav.gwei.site",
     "summary": "Développeur Full-Stack Senior avec un focus Frontend comptant plus de 10 ans d'expérience dans le développement d'applications d'entreprise, notamment dans les domaines de la sécurité, de l'opérationnel et de l'analyse de données. J'ai également eu l'opportunité de concevoir un agent IA conversationnel dans le cadre d'une application permettant l'interrogation et l'interprétation des données extraites de la base d'interactions du service client de Bell Canada. Je possède 6 ans d'expérience avec Angular, 4 ans avec Vue.js, 6 ans avec Java (dont 3 avec Spring Boot) ainsi que 3 ans en Python Django.",
@@ -204,7 +204,7 @@
     }
   ],
   "meta": {
-    "canonical": "https://github.com/nipsysdev/resume",
+    "canonical": "https://github.com/AI-V01D/resume",
     "version": "v1.5.0",
     "lastModified": "2026-07-10",
     "theme": "jsonresume-theme-stackoverflow"
