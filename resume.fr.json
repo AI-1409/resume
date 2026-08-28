@@ -4,13 +4,13 @@
     "name": "Xavier Saliniere",
     "label": "Développeur Full-Stack Senior",
     "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
-    "email": "bonjour@xaviers.sh",
-    "url": "https://xav.gwei.site",
-    "summary": "Développeur Full-Stack Senior avec un focus Frontend comptant plus de 10 ans d'expérience dans le développement d'applications d'entreprise, notamment dans les domaines de la sécurité, de l'opérationnel et de l'analyse de données. J'ai également eu l'opportunité de concevoir un agent IA conversationnel dans le cadre d'une application permettant l'interrogation et l'interprétation des données extraites de la base d'interactions du service client de Bell Canada. Je possède 6 ans d'expérience avec Angular, 4 ans avec Vue.js, 6 ans avec Java (dont 3 avec Spring Boot) ainsi que 3 ans en Python Django.",
+    "email": "bonjour@xav.dev",
+    "url": "https://xav.dev",
+    "summary": "Développeur Full-Stack Senior avec un focus Frontend comptant plus de 10 ans d'expérience dans le développement d'applications d'entreprise, notamment dans les domaines de la sécurité, de l'opérationnel et de l'analyse de données. Expert dans la conception de systèmes à forte autonomie orientés résultats, incluant des plateformes de support client s'appuyant sur l'IA et une infrastructure P2P décentralisée. Je possède 6 ans d'expérience avec Angular, 4 ans avec Vue.js, 6 ans avec Java (dont 3 avec Spring Boot) ainsi que 3 ans en Python Django.",
     "location": {
-      "city": "Genève",
-      "countryCode": "CH",
-      "address": "Suisse"
+      "city": "Denpasar",
+      "countryCode": "ID",
+      "address": "Indonésie"
     },
     "nationality": "Citoyen français",
     "profiles": [
@@ -28,13 +28,21 @@
   },
   "work": [
     {
+      "name": "Talan",
+      "position": "Développeur Full-Stack Senior",
+      "startDate": "2022-01",
+      "summary": "Consultant Senior spécialisé dans l'architecture d'entreprise complexe. Actuellement en R&D sur les infrastructures décentralisées et l'orchestration d'agents IA.",
+      "url": "https://talan.com"
+    },
+    {
       "name": "Bell Canada (via Talan)",
       "position": "Développeur Full-Stack Senior",
       "startDate": "2022-01",
-      "summary": "Au sein du Centre d'Opérations de Bell Canada, j'ai créé et contribué à la création de diverses plateformes d'entreprise dans le domaine de la sécurité et de l'analyse et visualisation de données.\n\nTechnologies : Vue.js (version 2 et 3), React, TypeScript, Pinia, TailwindCSS, Vite, PostgreSQL, MongoDB, Elasticsearch, Redis, Java Spring Boot, Python Django, Docker, GitLab CI/CD, Keycloak, Vitest, Jest, Cypress, Playwright, Google ADK (agent IA).",
+      "endDate": "2026-06",
+      "summary": "Au sein du Centre d'Opérations de Bell Canada, j'ai piloté le développement Full-Stack des plateformes d'entreprise de sécurité et d'analyse de données, en construisant des outils critiques pour la visualisation de données et la supervision en temps réel.",
       "highlights": [
-        "Développement de la plateforme Insights (Vue3/Spring Boot) – plateforme d'analyse du service client basée sur l'IA utilisée par plus de 1 100 utilisateurs. J'y ai développé un agent conversationnel de zéro, permettant l'interrogation de la base d'interactions du service client ainsi que la génération de graphiques. J'ai également développé un système de cache utilisant MongoDB (en recommandant une migration vers Redis).",
-        "Création de la nouvelle application Frontend pour la plateforme de gestion WAF – Migration du frontend React vers Vue3. Fonctionnalités comprenant la configuration des politiques de pare-feu, serveurs virtuels, signatures ASM, télémétrie, intégration avec F5 et les services backend écrits en Go et Spring Boot.",
+        "Développement de la plateforme Insights (Vue3/Spring Boot) – plateforme d'analyse du service client s'appuyant sur l'IA, utilisée par plus de 1 100 utilisateurs. J'y ai développé un agent conversationnel à partir de zéro, permettant l'interrogation en langage naturel de la base d'interactions du service client ainsi que la génération de graphiques.",
+        "Création de la nouvelle application Frontend pour la plateforme de gestion WAF – Migration du frontend React vers Vue3. Fonctionnalités comprenant la configuration des politiques de pare-feu, les serveurs virtuels et l'intégration de la télémétrie en temps réel avec F5 et les services backend Go/Spring Boot.",
         "Reprise du développement de la plateforme de gestion des vulnérabilités – Plateforme de suivi et de correction des failles de sécurité sur l'ensemble de l'infrastructure de Bell (Vue2/Django).",
         "Développement de la plateforme EDR – Plateforme de détection et de réponse aux événements pour la coordination en temps réel des incidents de sécurité avec intégration de SentinelOne (Vue2/Spring Boot).",
         "Développement du nouveau Frontend de Phisherman – Plateforme de détection et d'analyse du phishing, intégrant URLScan.io, Symantec et Wildfire (Vue3/Django, Elasticsearch).",
@@ -48,11 +56,11 @@
       "position": "Développeur Lead Front-End",
       "startDate": "2019-09",
       "endDate": "2022-01",
-      "summary": "Responsable de l'architecture Frontend de PRISM — application web modulaire pour la définition et validation de composants automobiles, utilisée par de multiples rôles de parties prenantes tout au long du cycle de développement véhicule.\n\nTechnologies : Angular 8+, TypeScript, Redux, Material Design, GitLab CI/CD, Jest, Cypress.",
+      "summary": "Responsable de l'architecture Frontend de PRISM — application web modulaire pour la définition et validation de composants automobiles, utilisée par de multiples rôles de parties prenantes tout au long du cycle de développement véhicule.",
       "highlights": [
-        "Construction de vues modulaires pour une application cPDM (Angular) — permettant aux designers, ingénieurs, équipes achats et spécialistes conformité de définir, configurer et valider des composants automobiles incluant pièces, matériaux et variantes de coloris/garnitures",
-        "Mise en place des normes de code à suivre, décisions architecturales et pratiques de développement de l'équipe frontend ; intégration avec les services backend Java/Spring Boot et collaboration sur la conception des contrats API",
-        "Réduction du temps de cycle de validation des composants automobiles permettant des revues parallèles par les parties prenantes au sein d'une source unique de vérité, en détectant les conflits de design plus en amont dans la phase de conception"
+        "Architecture du frontend modulaire de PRISM en Angular 8+, avec la mise en place d'un système complexe de gestion d'état piloté par Redux pour permettre la validation en parallèle des pièces automobiles au sein d'une source de vérité unique.",
+        "Mise en place des normes de code, des décisions architecturales et des pratiques de développement de l'équipe frontend ; intégration avec les services backend Java/Spring Boot et collaboration sur la conception des contrats API.",
+        "Réduction du temps de cycle de validation des composants automobiles en résolvant les conflits de design plus en amont dans la phase de conception, évitant ainsi des changements coûteux dans les phases avancées de fabrication."
       ]
     },
     {
@@ -60,11 +68,10 @@
       "position": "Développeur Full-Stack",
       "startDate": "2016-01",
       "endDate": "2019-09",
-      "summary": "Développement Full-Stack de plateformes d'agrégation et d'estimation immobilière pour les professionnels de l'immobilier, fournissant aux agents et agences des outils de veille de marché, recherche de biens et aide à la décision.\n\nTechnologies : Angular.js, Angular 4+, JavaScript, TypeScript, MongoDB, Elasticsearch, Java 8+, Eclipse Jersey.",
+      "summary": "Développement Full-Stack de plateformes d'agrégation et d'estimation immobilières destinées aux professionnels de l'immobilier en France.",
       "highlights": [
-        "Plateforme agrégeant les annonces immobilières de plus de 10 sources avec recherche avancée, filtrage, génération de rapports et création de propositions pour les professionnels de l'immobilier",
-        "Migration AngularJS vers Angular 5 — implémentation des capacités Progressive Web App, design responsive pour mobile et tablette, et modernisation de l'architecture frontend",
-        "Développement des services backend pour les mises à jour de données en temps réel, l'optimisation de la recherche et l'infrastructure de crawling alimentant le pipeline d'agrégation"
+        "Modernisation du portail d'analyse immobilière par la migration du frontend d'AngularJS vers Angular 5, améliorant la productivité du développement grâce à TypeScript, aux composants réutilisables et à une architecture plus maintenable.",
+        "Conception des composants clés d'un pipeline de données à l'échelle nationale pour agréger les annonces immobilières partout en France, en implémentant des scrapers résilients avec rotation de proxys et extraction par regex afin de dédupliquer et structurer des données issues de millions d'enregistrements."
       ],
       "url": "https://www.yanport.com"
     }
@@ -124,13 +131,12 @@
       "keywords": [
         "Java",
         "Spring Boot",
-        "Eclipse Jersey",
         "Node.js",
         "Python Django",
         "Deno",
+        "Rust",
         "Micro-services",
-        "REST APIs",
-        "Rust"
+        "REST APIs"
       ]
     },
     {
@@ -146,7 +152,7 @@
       ]
     },
     {
-      "name": "Assurance & Qualité",
+      "name": "Assurance Qualité",
       "keywords": [
         "Vitest",
         "Jest",
@@ -179,34 +185,34 @@
   ],
   "projects": [
     {
-      "name": "site",
-      "description": "Site personnel au thème terminal, déployé sur IPFS, auto-hébergé avec support bilingue FR/EN et infrastructure P2P.",
-      "keywords": ["TypeScript", "React", "Next.js", "IPFS", "GitHub CI", "Auto-hébergement"],
-      "url": "https://xav.gwei.site/"
-    },
-    {
-      "name": "@nipsys/lsd",
-      "description": "Une implémentation du Logos Design System basée sur Shadcn — 39 composants disponibles.",
-      "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System", "GitHub CI"],
-      "url": "https://lsd.nipsys.dev/"
-    },
-    {
       "name": "Ash",
-      "description": "Proof-of-concept hackathon de coordination terrain P2P avec communication résistante à la censure. Vainqueur du RealFi Hack 2025 hackathon (240 participants). Développement poursuivi à travers AnyMaps, une plateforme de navigation hors-ligne décentralisée avec fonctionnalités sociales.",
+      "description": "Vainqueur du RealFi Hack 2025. Développement d'une preuve de concept de coordination résistante à la censure à destination d'activistes, intégrant Tor et le protocole P2P Waku pour permettre une communication sécurisée et décentralisée dans des environnements à haut risque.",
       "keywords": ["TypeScript", "Rust", "Tauri", "Waku/Logos stack", "Tor", "P2P"],
       "url": "https://github.com/nipsysdev/Ash"
     },
     {
+      "name": "@nipsys/lsd",
+      "description": "Création d'une implémentation open source du Logos Design System. Développement d'une bibliothèque UI complète, personnalisable et accessible basée sur Radix UI et shadcn/ui, offrant un langage de design standardisé pour les applications décentralisées.",
+      "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System", "GitHub CI"],
+      "url": "https://lsd.nipsys.dev/"
+    },
+    {
       "name": "storage-rust-bindings",
-      "description": "Bindings FFI Rust pour Logos Storage, un réseau de stockage décentralisé.",
+      "description": "Développement des bindings FFI Rust officiels pour le réseau de stockage Logos (intégrés à l'organisation GitHub de Logos), permettant une interaction sécurisée et performante avec les protocoles de stockage décentralisés pour la communauté Rust.",
       "keywords": ["Rust", "FFI", "Logos Storage"],
       "url": "https://github.com/nipsysdev/storage-rust-bindings"
+    },
+    {
+      "name": "site",
+      "description": "Site personnel au thème terminal, déployé sur IPFS, auto-hébergé avec support bilingue FR/EN et infrastructure P2P.",
+      "keywords": ["TypeScript", "React", "Next.js", "IPFS", "GitHub CI", "Auto-hébergement"],
+      "url": "https://xav.dev/"
     }
   ],
   "meta": {
     "canonical": "https://github.com/nipsysdev/resume",
-    "version": "v1.5.0",
-    "lastModified": "2026-07-10",
+    "version": "v1.7.0",
+    "lastModified": "2026-08-28",
     "theme": "jsonresume-theme-stackoverflow"
   }
 }
